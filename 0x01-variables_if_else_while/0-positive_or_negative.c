@@ -1,15 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
+
+/* betty style doc for function main goes there */
 /**
-*How to show positive, negative numbers using statements
-*if (n > 0) prints n is positive
-*else if (n < 0) prints n is negative
-*else is going to print is zero
-*Return: Always 0
-*/
-
-/*betty style*/
-
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int n;
@@ -18,15 +16,16 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
-		printf("%i is positive", n);
+		printf("%i is positive\n", n);
 	}
-	else if (n < 0)
+		else if (n == 0)
 	{
-		printf("%i is negative", n);
+		printf("%i is zero\n", n);
 	}
-	else
+		else if (n < 0)
 	{
-		printf("%i is zero", n);
+		printf("%i is negative\n", n);
 	}
+
 	return (0);
 }
