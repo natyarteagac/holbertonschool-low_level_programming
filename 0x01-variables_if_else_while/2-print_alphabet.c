@@ -11,11 +11,8 @@ int main(void)
 
 	int z;
 
-	int c;
 
-	c = 122;
-
-	for (z = 97; z <= c; z++)
+	for (z = 'a'; z <= 'z'; z++)
 
 	{
 		putchar(z);
