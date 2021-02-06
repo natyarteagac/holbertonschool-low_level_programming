@@ -1,4 +1,4 @@
-# include <stdio.h>
+#include <stdio.h>
 
 /**
 * main - for print a..z lower case
@@ -19,8 +19,9 @@ int main(void)
 
 	{
 		putchar(z);
-		putchar('\n');  
 	}
+
+	putchar('\n');
 
 	return (0);
 
