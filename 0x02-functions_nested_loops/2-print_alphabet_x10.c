@@ -1,5 +1,11 @@
 #include "holberton.h"
 
+/**
+* print_alphabet_x10 - entry point.
+*
+* void: without return code.
+*/
+
 void print_alphabet_x10(void)
 {
 
