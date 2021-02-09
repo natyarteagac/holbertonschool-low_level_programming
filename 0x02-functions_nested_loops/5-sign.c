@@ -1,5 +1,5 @@
 #include "holberton.h"
-/*
+/**
 * print_sign - starting point.
 *
 * n prints the number required.
