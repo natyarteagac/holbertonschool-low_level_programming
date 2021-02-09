@@ -3,7 +3,7 @@
 /**
 * _islower - check the lowercase alphabet.
 *
-* c variable declarated with int.
+* @c: variable declarated with int.
 *
 * Return: 0 and 1.
 */
