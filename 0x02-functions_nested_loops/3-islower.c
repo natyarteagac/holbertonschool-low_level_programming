@@ -1,11 +1,11 @@
 #include "holberton.h"
 
 /**
-* int _islower - function to return upper, lower and number
+* _islower - check the lowercase alphabet.
 *
-* int c function to return lowercase alphabet
+* c - return all the lowercase alphabet.
 *
-* Return: O and 1.
+* Return: 0 and 1.
 */
 
 int _islower(int c)
