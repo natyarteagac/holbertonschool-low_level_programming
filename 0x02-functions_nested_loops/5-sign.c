@@ -2,7 +2,7 @@
 /**
 * print_sign - starting point.
 *
-* n prints the number required.
+* @n: prints the number required.
 *
 * Return: -1, 0, 1.
 */
