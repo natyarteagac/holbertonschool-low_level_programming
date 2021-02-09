@@ -3,7 +3,7 @@
 /**
 * _isalpha - check the uppercase and lowercase alphabet.
 *
-* c print all the upper and lowercase alphabet.
+* @c: print all the upper and lowercase alphabet.
 *
 * Return: 0 and 1.
 */
