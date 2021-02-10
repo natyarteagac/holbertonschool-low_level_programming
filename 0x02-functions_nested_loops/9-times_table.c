@@ -1,26 +1,41 @@
 #include "holberton.h"
 
 /**
-* print_last_digit - prints the last digit of a number.
-*
-* @n: variable to evaluate.
-*
-* Return: a.
-*/
+ * times_table - prints the times table up to 9
+ *
+ * Return: void
+ */
 
-int print_last_digit(int n)
+void times_table(void)
 {
-	int a;
+	int a, b, c, d, e;
 
-	if (n < 0)
+	for (a = 0; a < 10; a++)
 	{
-		a = (n % 10) * -1;
-		_putchar(a + '0');
+		for (b = 0; b < 10; b++)
+		{
+			c = a * b;
+			d = c / 10;
+			e = c % 10;
+			if (b == 0)
+				_putchar('0');
+			else if (c < 10)
+			{
+				_putchar(' ');
+				_putchar('0' + e);
+			}
+			else
+			{
+				_putchar('0' + d);
+				_putchar('0' + e);
+			}
+			if (b < 9)
+			{
+				_putchar(',');
+				_putchar(' ');
+			}
+			else
+				_putchar('\n');
+		}
 	}
-	else
-	{
-		a = n % 10;
-		_putchar(a + '0');
-	}
-	return (a);
 }
