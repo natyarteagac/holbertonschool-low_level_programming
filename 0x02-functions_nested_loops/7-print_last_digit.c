@@ -26,3 +26,4 @@ int print_last_digit(int r)
 		return (z);
 	}
 }
+
