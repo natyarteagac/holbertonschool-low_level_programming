@@ -2,7 +2,9 @@
 /**
 * add - start point.
 *
-* @a, b, c return all the numbers.
+* @a: part of add.
+*
+* @b: part of add.
 *
 * Return: c.
 */
