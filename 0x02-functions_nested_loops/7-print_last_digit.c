@@ -5,7 +5,7 @@
 *
 * @r: Print the digit.
 *
-* Return: Always a;
+* Return: Always z.
 */
 
 int print_last_digit(int r)
