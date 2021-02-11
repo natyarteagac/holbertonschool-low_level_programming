@@ -1,11 +1,8 @@
 #include <stdio.h>
 
-/**
-* main - causes an infinite loop
-* while (i <10){
+/** while (i < 10){
 *	putchar(i);
 *}
-* Return: 0
 */
 
 int main(void)
