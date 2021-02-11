@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-/** while (i < 10);
-*{	
-*	putchar(i);
-*/}
+/**
+* while (i < 10){	
+*	putchar(i);}
+*/
 
 int main(void)
 {
