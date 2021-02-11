@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-/** 
-* main - causes an infinite loop
-* Return: 0
+/**
+* main - causes an infinite loop  while (i < 10){
+* Return: 0				putchar (i);}
 */
 
 int main(void)
@@ -12,7 +12,7 @@ int main(void)
 	printf("Infinite loop incoming :(\n");
 
 	i = 0;
-		// (i < 0) always comply the condition and putchar (i) never finish the loop.
+
 		while (i < 10)
 		{
 			putchar(i);
