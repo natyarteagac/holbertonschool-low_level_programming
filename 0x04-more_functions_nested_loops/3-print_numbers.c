@@ -1,17 +1,22 @@
 #include "holberton.h"
 
+/**
+* print_numbers - entry point.
+*
+* Return: 0.
+*/
+
 void print_numbers(void)
 {
-	int a = 0, b;
 
-	while (a <= 0)
+	int a = 0;
+
+	while (a <= '9')
 	{
-		while (b <= 9)
-		{
-			_putchar(b + '0');
-			b++;
-		}
-	_putchar('\n');
-	a++;
+		_putchar(a);
+		a++;
 	}
+
+	_putchar('\n');
+
 }
