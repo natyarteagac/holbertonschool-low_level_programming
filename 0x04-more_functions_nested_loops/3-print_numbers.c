@@ -2,7 +2,7 @@
 
 void print_numbers(void)
 {
-	int a = 0 , b;
+	int a = 0, b;
 
 	while (a <= 0)
 	{
@@ -13,6 +13,5 @@ void print_numbers(void)
 		}
 	putchar('\n');
 	a++;
-	}	
+	}
 }
-
