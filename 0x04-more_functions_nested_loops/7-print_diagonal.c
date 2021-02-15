@@ -3,8 +3,6 @@
 /**
 * print_diagonal - entry point.
 * @n: number to return the result.
-*
-* Return (0);
 */
 
 void print_diagonal(int n)
@@ -15,7 +13,7 @@ void print_diagonal(int n)
 	{
 		for (line = 1; line <= n; line++)
 		{
-			for (space = 0; space < line; space++)
+			for (space = 1; space < line; space++)
 			{
 				_putchar(' ');
 			}
@@ -28,3 +26,4 @@ void print_diagonal(int n)
 		_putchar('\n');
 	}
 }
+
