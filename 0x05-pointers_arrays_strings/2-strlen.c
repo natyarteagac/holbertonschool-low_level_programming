@@ -3,12 +3,17 @@
 /**
 * _strlen - start point.
 *
-* Return: Always 0.
+* @s: Pointer char.
+*
+* Return: i.
 */
 
 int _strlen(char *s)
 {
-	int *s[1];
+	int i;
 
-	return (0);
+	for (i = 0; *(s + i) != '\0'; i++);
+
+	return (i);
 }
+
