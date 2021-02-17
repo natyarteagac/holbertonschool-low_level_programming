@@ -3,7 +3,6 @@
 /**
 * print_rev - entry point.
 * @s: pointer char.
-*
 * Return: no return.
 */
 
@@ -21,4 +20,5 @@ void print_rev(char *s)
 		_putchar(*(s + i));
 		i--;
 	}
+	_putchar('\n');
 }
