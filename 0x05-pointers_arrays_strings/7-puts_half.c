@@ -15,9 +15,9 @@ void puts_half(char *str)
 
 	k = i / 2;
 
-	while (*(str + k))
+	while (k < i)
 	{
-		putchar(*(str + k));
+		putchar(k + '0');
 		k++;
 	}
 	putchar('\n');
