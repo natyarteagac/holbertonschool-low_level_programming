@@ -25,5 +25,6 @@ void rev_string(char *s)
 		s[3] = s[5];
 		s[5] = x;
 		s[4] = s[4];
+	i = nn/2
 	}
 }
