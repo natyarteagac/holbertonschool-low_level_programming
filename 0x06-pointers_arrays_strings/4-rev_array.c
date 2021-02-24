@@ -1,6 +1,6 @@
 #include "holberton.h"
 
-/** 
+/**
 * reverse_array - entry point.
 * @a: int pointer.
 * @n: int pointer.
