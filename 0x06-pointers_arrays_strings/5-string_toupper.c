@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
-* *strin_toupper - entry point.
+* *string_toupper - entry point.
 * @p: char pointer.
 * Return: p.
 */
