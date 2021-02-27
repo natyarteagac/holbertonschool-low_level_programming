@@ -1,10 +1,10 @@
 #include "holberton.h"
 
 /**
-* _pow_recusion - entry point.
+* _pow_recursion - entry point.
 * @x: int pointer.
 * @y: int pointer.
-* Return: int negative or positive.
+* Return: int.
 */
 
 int _pow_recursion(int x, int y)
