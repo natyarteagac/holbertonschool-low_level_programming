@@ -8,10 +8,10 @@
 
 int _sqrt_recursion(int n)
 {
-    if (n > 0)
-        return get_sqre(n, 1);
-    else
-        return(-1);
+	if (n > 0)
+		return (get_sqre(n, 1));
+	else
+		return (-1);
 }
 
 /**
@@ -23,10 +23,10 @@ int _sqrt_recursion(int n)
 
 int get_sqre(int n, int a)
 {
-    if (a * a == n)
-      return(a);
-    else if (a * a > n)
-      return(-1);
-    else
-      return get_sqre(n, a + 1);
+	if (a * a == n)
+		return (a);
+	else if (a * a > n)
+		return (-1);
+
+	return (get_sqre(n, a + 1));
 }
