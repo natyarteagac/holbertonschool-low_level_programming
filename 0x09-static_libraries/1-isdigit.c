@@ -1,13 +1,12 @@
-#!/bin/bash
 #include "holberton.h"
 
 /**
-* _abs - entry point.
-* @n: int n.
-* Return: n.
+* _isupper - entry point.
+* @c: int c.
+* Return: c.
 */
 
-int _abs(int n)
+int _isupper(int c)
 {
-	return (n);
+	return (c);
 }

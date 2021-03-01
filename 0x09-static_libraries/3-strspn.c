@@ -1,8 +1,7 @@
-#!/bin/bash
 #include "holberton.h"
 
 /**
-* _strcmp - entry point.
+* *_strchr - entry point.
 * @s: char pointer.
 * @c: char pointer.
 * Return: 0.

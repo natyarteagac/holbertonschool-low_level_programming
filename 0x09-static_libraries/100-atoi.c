@@ -1,4 +1,3 @@
-#!/bin/bash
 #include "holberton.h"
 
 /**
@@ -7,7 +6,7 @@
 * Return: s.
 */
 
-int _strlen(char *s)
+int _atoi(char *s)
 {
 	return (*s);
 }
