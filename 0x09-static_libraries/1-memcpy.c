@@ -1,12 +1,22 @@
 #include "holberton.h"
 
 /**
-* _isupper - entry point.
-* @c: int c.
-* Return: c.
+* *_memcpy - entry point.
+* @dest: char pointer.
+* @src: char pointer.
+* @n: usigned int.
+* Return: dest.
 */
 
-int _isupper(int c)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	return (c);
+	unsigned int i = 0;
+
+	while (i < n)
+	{
+		*(dest + i) = *(src + i);
+		i++;
+	}
+
+	return (dest);
 }

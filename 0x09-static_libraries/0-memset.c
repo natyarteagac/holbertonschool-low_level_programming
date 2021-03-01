@@ -1,12 +1,20 @@
 #include "holberton.h"
 
 /**
-* _islower - entry point.
-* @c: int c.
-* Return: c.
+* *_memset - entry point.
+* @s: char pointer.
+* @b: pointer to copy.
+* @n: times to copy pointer.
+* Return: s.
 */
 
-int _islower(int c)
+char *_memset(char *s, char b, unsigned int n)
 {
-	return (c);
+	unsigned int i;
+
+	for (i = 0; i < n; i++)
+	{
+		*(s + i) = b;
+	}
+	return (s);
 }

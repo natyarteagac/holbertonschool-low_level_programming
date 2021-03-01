@@ -1,12 +1,27 @@
 #include "holberton.h"
 
 /**
-* _isdigit - entry point.
-* @c: int c.
-* Return: c.
+* *_strncat - entry point.
+* @dest: char pointer.
+* @src: char pointer.
+* @n: variable.
+* Return: dest.
 */
 
-int _isdigit(int c)
+char *_strncat(char *dest, char *src, int n)
 {
-	return (c);
+	int i = 0, a;
+
+	while (*(dest + i))
+	{
+		i++;
+	}
+
+	for (a = 0; a < n && *(src + a); a++)
+	{
+		*(dest + i) = *(src + a);
+		i++;
+	}
+
+	return (dest);
 }

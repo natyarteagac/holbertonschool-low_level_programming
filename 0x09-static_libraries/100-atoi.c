@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
-* _strlen - entry point.
+* _atoi - entry point.
 * @s: char pointer.
 * Return: s.
 */

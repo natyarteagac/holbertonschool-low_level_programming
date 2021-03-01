@@ -1,29 +1,19 @@
 #include "holberton.h"
 
 /**
-* _puts - entry point.
+* *_strchr - entry point
 * @s: char pointer.
+* @c: char.
 * Return: void.
 */
 
-void _puts(char *s)
+char *_strchr(char *s, char c)
 {
-	int i = 0, k;
+	int i = 0;
 
-	while (*(s + i))
-		i++;
-
-	k = i / 2;
-
-	if (k % 2 == 0)
+	while (s[i] != c)
 	{
-		k = k + 1;
+		c++;
 	}
-
-	while (k < i)
-	{
-		_putchar(*(s + k));
-		k++;
-	}
-	_putchar('\n');
+	return (0);
 }

@@ -1,12 +1,21 @@
 #include "holberton.h"
 
 /**
-* _isdigit - entry point.
-* @c: int c.
-* Return: c.
+* *_strpbrk - entry point.
+* @s: char pointer.
+* @accept: char pointer.
+* Return: 0.
 */
 
-int _isdigit(int c)
+char *_strpbrk(char *s, char *accept)
 {
-	return (c);
+	int i = 0;
+	int p = 0;
+
+	while (s[i] != 0)
+	s++;
+	while (accept[p] != 0)
+	accept++;
+
+	return (0);
 }

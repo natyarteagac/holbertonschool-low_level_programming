@@ -1,12 +1,12 @@
 #include "holberton.h"
 
 /**
-* _putchar - entry point.
+* _isupper - entry point.
 * @c: char pointer.
 * Return: 0.
 */
 
-int _putchar(char c)
+int _isupper(int c)
 {
 	return (c);
 }

@@ -1,12 +1,12 @@
 #include "holberton.h"
 
 /**
-* _isdigit - entry point.
-* @c: entry point.
+* _isalpha - entry point.
+* @c: int c.
 * Return: c.
 */
 
-int _isdigit(int c)
+int _isalpha(int c)
 {
 	return (c);
 }
