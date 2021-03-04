@@ -6,6 +6,7 @@
 * @s1: char pointer.
 * @s2: char pointer.
 * @n: unsigned int.
+* Return: Concatenation of s1 y s2.
 */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
