@@ -16,7 +16,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	if (nmemb == 0 || size == 0)
 		return (NULL);
 
-	nArray = malloc(nmemb * sizeof(char));
+	nArray = malloc(nmemb * size);
 
 	if (nArray == NULL)
 		return (NULL);
