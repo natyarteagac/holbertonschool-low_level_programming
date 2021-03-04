@@ -25,14 +25,14 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (n >= z)
 		n = z;
 
-	p_array = malloc((i + z) * sizeof(char));
+	p_array = malloc((i + n) + 1 * sizeof(char));
 	if (p_array == NULL)
 		return (NULL);
 
 	for (p = 0; p < i; p++)
 		p_array[p] = s1[p];
 
-	for (r = i; r < i + z; r++)
+	for (r = i; r < i + n; r++)
 	{
 		p_array[r] = s2[b];
 		b++;
