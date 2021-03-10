@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
-* struct dog - Function.
+* init_dog - Function.
 * @d: pointer.
 * @name: name of the dog
 * @age: age of the dog.
@@ -12,7 +12,7 @@
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	if (d)
+	if ((d) != NULL)
 	{
 		d->name = name;
 		d->age = age;
