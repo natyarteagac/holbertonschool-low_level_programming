@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdarg.h>
 #include "variadic_functions.h"
-#include <stdlib.h>
 
 /**
 * print_strings - Pointer function.
@@ -20,7 +19,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 
 	for (i = 0; i < n; i++)
 	{
-		p = va_arg(arr, char*);
+		p = va_arg(arr, char *);
 		if (p == NULL)
 		{
 			printf("nil");
