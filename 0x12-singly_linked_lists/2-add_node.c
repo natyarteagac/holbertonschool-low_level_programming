@@ -2,7 +2,7 @@
 
 /**
 * add_node - entry point.
-* @head: doble pointer to head.
+* @head: Double pointer to head.
 * @str: Pointer to node.
 * Return: new node.
 */
@@ -25,7 +25,7 @@ list_t *add_node(list_t **head, const char *str)
 
 	if (new_node->str == NULL)
 	{
-		free(new_node->str);
+		free(new_node);
 		return (NULL);
 	}
 
