@@ -1,19 +1,19 @@
 #include "lists.h"
 
 /**
-*
-*
-*
+* list_len - entry point.
+* @h: pointer to node.
+* Return: Number of elements.
 */
 
 size_t list_len(const list_t *h)
 {
-	int i = 0;
+	size_t i = 0;
 
 	while (h != NULL)
 	{
-	printf("%s", h->str);
-	i++;
+		h = h->next;
+		i++;
 	}
 
 	return (i);
