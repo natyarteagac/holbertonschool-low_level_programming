@@ -9,16 +9,14 @@
 
 int create_file(const char *filename, char *text_content)
 {
-	int n, w;
-	char *p;
-	int lenght = 0;
+	int n, w, lenght = 0;
 
 	if (filename == NULL)
 		return (-1);
 
 	if (text_content != NULL)
 	{
-		while (text_content[lenght] != '\0')
+		while (text_content[lenght])
 		{
 			lenght++;
 		}
@@ -28,14 +26,9 @@ int create_file(const char *filename, char *text_content)
 		if (n == -1)
 			return (-1);
 
-	p = malloc(sizeof(char) * lenght);
-		if (p == NULL)
-			return (-1);
-
-	w = write(n, p, lenght);
+	w = write(n, text_content, lenght);
 		if (w == -1)
 			return (-1);
-	free(p);
 	close(n);
 
 	return (1);
