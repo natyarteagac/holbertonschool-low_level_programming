@@ -1,0 +1,10 @@
+total 168
+-rw-rw-r-- 1 vagrant vagrant  561 Mar 23 13:07 0-main.c
+-rw-rw-r-- 1 vagrant vagrant  258 Mar 23 13:30 0-print_listint.c
+-rw-rw-r-- 1 vagrant vagrant  233 Mar 23 13:37 1-listint_len.c
+-rw-rw-r-- 1 vagrant vagrant  559 Mar 23 13:34 1-main.c
+-rw-rw-r-- 1 vagrant vagrant  367 Mar 23 16:17 2-add_nodeint.c
+-rw-rw-r-- 1 vagrant vagrant  488 Mar 23 15:04 2-main.c
+-rw-rw-r-- 1 vagrant vagrant  529 Mar 23 16:35 3-add_nodeint_end.c
+-rw-rw-r-- 1 vagrant vagrant  520 Mar 23 16:25 3-main.c
+-rw-rw-r-- 1 vagrant vagrant  231 Mar 23 17:18 4-free_listint.c
