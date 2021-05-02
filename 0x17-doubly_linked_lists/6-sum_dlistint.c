@@ -11,9 +11,6 @@ int sum_dlistint(dlistint_t *head)
 	dlistint_t *tmp = head;
 	unsigned int add = 0;
 
-	if (head == NULL)
-		return (NULL);
-
 	while (tmp != NULL)
 	{
 		add += tmp->n;
