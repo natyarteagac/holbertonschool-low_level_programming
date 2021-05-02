@@ -3,13 +3,16 @@
 /**
 * sum_dlistint - Function to Add the data of the nodes.
 * @head: Pointer to head.
-* Return: Add of the data. 
+* Return: Add of the data.
 */
 
 int sum_dlistint(dlistint_t *head)
 {
 	dlistint_t *tmp = head;
 	unsigned int add = 0;
+
+	if (head == NULL)
+		return (NULL);
 
 	while (tmp != NULL)
 	{
@@ -21,4 +24,3 @@ int sum_dlistint(dlistint_t *head)
 
 	return (add);
 }
-
