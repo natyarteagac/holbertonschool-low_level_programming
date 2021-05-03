@@ -38,6 +38,7 @@ Please use this data structure for this project:
 */
  
 typedef struct dlistint_s
+
 {
     int n;
     struct dlistint_s *prev;
