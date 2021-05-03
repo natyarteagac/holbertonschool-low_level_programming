@@ -10,7 +10,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 
 ## Requirements
 
-#General
+# General
 - Allowed editors: vi, vim, emacs
 - All your files will be compiled on Ubuntu 14.04 LTS
 - Your programs and functions will be compiled with gcc 4.8.4 using the flags -Wall -Werror -Wextra and -pedantic
@@ -35,7 +35,8 @@ Please use this data structure for this project:
  * @next: points to the next node
  * Description: doubly linked list node structure
  * for Holberton project
- */
+*/
+ 
 typedef struct dlistint_s
 {
     int n;
