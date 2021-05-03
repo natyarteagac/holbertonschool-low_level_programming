@@ -1,10 +1,10 @@
 #include "lists.h"
 
 /**
-*
-*
-*
-*
+* delete_dnodeint_at_index - Function to delete the node.
+* @head: Double pointer to head..
+* @index: Index to delete node.
+* Return: 1 successfull (-1) failed.
 */
 
 int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
