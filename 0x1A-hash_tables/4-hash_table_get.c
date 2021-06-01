@@ -9,12 +9,13 @@
 
 char *hash_table_get(const hash_table_t *ht, const char *key)
 {
-	const hash_node_t *tmp;
+	const hash_node_t *tmp = NULL;
 	unsigned long int index;
-	char *new_value;
+	char *new_value = NULL;
 
 	if (ht == NULL || key == NULL)
 		return (NULL);
+
 	index = key_index((const unsigned char *)key, ht->size);
 	tmp = ht->array[index];
 
