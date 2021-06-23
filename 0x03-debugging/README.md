@@ -1,6 +1,6 @@
-      <h1 class="gap">0x03. C - Debugging</h1>
+<h1 class="gap">0x03. C - Debugging</h1>
 
-      <div class="gap" id="project-description">
+<div class="gap" id="project-description">
 <p>Debugging is the process of finding and fixing errors in software that prevents it from running correctly. As you become a more advanced programmer and an industry engineer, you will learn how to use debugging tools such as <code>gdb</code> or built-in tools that IDEs have. However, it&rsquo;s important to understand the concepts and processes of debugging manually.</p>
 
 <p><img src="https://holbertonintranet.s3.amazonaws.com/uploads/medias/2019/5/af682f2cbb6d73fd4e42.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUWMNL5ANN%2F20210623%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210623T173958Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=1ead5498eac961d94ce1edb5ef3477d51423f87b581f63be8a5758bc03fd56eb" alt="" style="" /></p>
