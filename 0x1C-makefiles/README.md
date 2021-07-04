@@ -54,8 +54,16 @@
 </ul>
 
 ## Tasks
+0. **0. make -f 0-Makefile**
+### Requirements:
+- name of the executable: holberton
+- rules: all
+  - The all rule builds your executable
+- variables: none
+
 1. **make -f 1-Makefile**
-Requirements:
+
+### Requirements:
 - name of the executable: holberton
 - rules: all
   - The all rule builds your executable
