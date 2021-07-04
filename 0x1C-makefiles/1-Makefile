@@ -1,5 +1,4 @@
-TARGET = all
 SRC = main.c holberton.c
 CC = gcc
-$(TARGET) :	$(SRC)
+all : $(SRC)
 	$(CC) $(SRC) -o holberton
