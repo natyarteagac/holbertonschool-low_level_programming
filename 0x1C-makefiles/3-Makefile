@@ -15,4 +15,4 @@ oclean :
 fclean:
 	$(RM) *~ $(NAME) $(OBJ)
 
-re: all
+re: fclean all
