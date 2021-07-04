@@ -1,9 +1,7 @@
-      <article class="">
-        
 <div class="project row">
   <div class="col-xs-12 col-md-10 col-lg-8 contains-images">
 
-      <h1 class="gap">0x1C. C - Makefiles</h1>
+<h1 class="gap">0x1C. C - Makefiles</h1>
 
 
   <ul class="list-group metadata" id="project-metadata">
@@ -14,16 +12,7 @@
 
 </ul>
 
-
-
-    <div id="project_id" style="display: none" data-project-id="273"></div>
-
-
-
-
-      
-
-      <div class="gap" id="project-description">
+<div class="gap" id="project-description">
   <p><img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-low_level_programming/273/giphy-2.gif" alt="" style="" /></p>
 
 <p><br /></p>
