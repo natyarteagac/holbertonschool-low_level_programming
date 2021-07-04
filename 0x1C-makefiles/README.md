@@ -54,7 +54,7 @@
 </ul>
 
 ## Tasks
-1. ##make -f 1-Makefile##
+1. **make -f 1-Makefile**
 Requirements:
 - name of the executable: holberton
 - rules: all
