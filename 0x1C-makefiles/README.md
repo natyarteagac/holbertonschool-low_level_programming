@@ -1,8 +1,9 @@
-<article class="">
-
+      <article class="">
+        
 <div class="project row">
   <div class="col-xs-12 col-md-10 col-lg-8 contains-images">
-<h1 class="gap">0x1C. C - Makefiles</h1>
+
+      <h1 class="gap">0x1C. C - Makefiles</h1>
 
 
   <ul class="list-group metadata" id="project-metadata">
@@ -11,38 +12,16 @@
     <em>Foundations &gt; Low-level programming &amp; Algorithm &gt; Hatching out</em>
   </li>
 
-
-    <li class="list-group-item">
-      <i class="fa fa-user fa-fw"></i> By Julien Barbier, co-founder &amp; CEO at Holberton School
-    </li>
-
-
-
-
-      <li class="list-group-item">
-        <i class="fa fa-calendar fa-fw"></i>
-            Ongoing project - started 07-02-2021, must end by 07-05-2021 (in about 7 hours)
-          - you're done with <span id="student_task_done_percentage">83</span>% of tasks.
-      </li>
-
-      <li class="list-group-item">
-        <i class="fa fa-check fa-fw"></i>
-          Checker was released at 07-03-2021 12:00 PM
-      </li>
-
-
-      <li class="list-group-item">
-        <i class="fa fa-check-square fa-fw"></i>
-        QA review fully automated.
-      </li>
-
-
 </ul>
 
 
 
     <div id="project_id" style="display: none" data-project-id="273"></div>
 
+
+
+
+      
 
       <div class="gap" id="project-description">
   <p><img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-low_level_programming/273/giphy-2.gif" alt="" style="" /></p>
@@ -84,11 +63,3 @@
 <li>All your files should end with a new line</li>
 <li>A <code>README.md</code> file, at the root of the folder of the project, is mandatory</li>
 </ul>
-
-<h2>More Info</h2>
-
-<h3>Files</h3>
-
-<p>In the following tasks, we are going to use <a href="https://github.com/holbertonschool/0x1B.c" title="these files" target="_blank">these files</a>. We want to compile these only.</p>
-
-</div>
