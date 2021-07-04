@@ -7,12 +7,12 @@ all : $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
 
 clean :
-	rm -f *~ holberton
+	$(RM) *~ $(NAME)
 
 oclean :
-	rm *.o
+	$(RM) $(OBJ)
 
 fclean:
-	rm -f *~ holberton *.o
+	$(RM) *~ $(NAME) $(OBJ)
 
 re: all
