@@ -4,7 +4,7 @@ CC = gcc
 NAME = holberton
 OBJ = $(SRC:.c=.o)
 all : m.h $(OBJ)
-	$(CC) $(CFLAGS) $(OBJ) -o $(NAME)
+	$(CC) -Wall -Werror -Wextra -pedantic $(OBJ) -o $(NAME)
 clean :
 	$(RM) *~ $(NAME)
 
