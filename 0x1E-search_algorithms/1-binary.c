@@ -1,5 +1,5 @@
-#include <stdio.h>
 #include "search_algos.h"
+
 /**
  * print_array - Function to print the array.
  * @array: Pointer to array.
@@ -42,7 +42,7 @@ int binary_search(int *array, size_t size, int value)
 	int index = -1;
 	int middle = -1;
 
-	if (value == 0 | array == NULL)
+	if (value == 0 || array == NULL)
 		return (-1);
 
 	print_array(array, left_middle, right_middle);
